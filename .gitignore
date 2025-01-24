@@ -10,8 +10,53 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
-# Eclipse m2e generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Lombok generated
+lombok.config
+
+# Maven
+/target/
+*.log
+*.properties
+*.xml
+!pom.xml
+
+# Gradle
+/build/
+.gradle/
+
+# IntelliJ IDEA
+/.idea/
+*.iml
+/out/
+
+# Eclipse
+/.settings/
+/.classpath
+/.project
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Testing
+/test-output/
+
+# Ignore sensitive files
+*.key
+*.pem
+*.p12
+*.jks
+
+# Others
+.vscode/
+*.swp
+
